@@ -1,4 +1,4 @@
-import tkinter import *
+from tkinter import *
 
 root = Tk()
 root.title("Snake Game Project")
