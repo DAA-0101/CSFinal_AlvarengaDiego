@@ -120,7 +120,7 @@ window.resizable(False, False)
 score = 0
 direction = 'right'
 
-label = label(window, text="Score:{}".format(score), font=('Arial', 40)
+label = label(window, text="Score:{}".format(score), font=('Arial', 40))
 label.pack()
 
 canvas = Canvas(window, bg=BACKGROUND_COLOR, height=GAME_HEIGHT, width=GAME_WIDTH)
